@@ -59,6 +59,9 @@ The staging database mirrors the raw data to perform cleansing, integration, and
 
 ## 🧱 Data Warehouse Schema (Star Schema)
 
+![image](https://github.com/user-attachments/assets/5468ebf4-183a-43a7-a25d-33c4b55469ed)
+
+
 ### ⭐ Fact Table
 
 - `FactSales`: Combines invoice and line item data with foreign keys to all dimensions.
