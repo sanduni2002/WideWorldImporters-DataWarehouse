@@ -1,0 +1,11 @@
+PersonID,FullName,PreferredName,SearchName,IsPermittedToLogon,LogonName,IsExternalLogonProvider,IsSystemUser,IsEmployee,IsSalesperson,PhoneNumber,FaxNumber,EmailAddress,LastEditedBy,ValidFrom,ValidTo
+2,Kayla Woodcock,Kayla,Kayla Kayla Woodcock,1,kaylaw@wideworldimporters.com,0,1,1,1,(415) 555-0102,(415) 555-0103,kaylaw@wideworldimporters.com,1,5/31/2016 23:14,
+3,Hudson Onslow,Hudson,Hudson Hudson Onslow,1,hudsono@wideworldimporters.com,0,1,1,1,(415) 555-0102,(415) 555-0103,hudsono@wideworldimporters.com,1,5/31/2016 23:14,
+6,Sophia Hinton,Sophia,Sophia Sophia Hinton,1,sophiah@wideworldimporters.com,0,1,1,1,(415) 555-0102,(415) 555-0103,sophiah@wideworldimporters.com,1,5/31/2016 23:14,
+7,Amy Trefl,Amy,Amy Amy Trefl,1,amyt@wideworldimporters.com,0,1,1,1,(415) 555-0102,(415) 555-0103,amyt@wideworldimporters.com,1,5/31/2016 23:14,
+8,Anthony Grosse,Anthony,Anthony Anthony Grosse,1,anthonyg@wideworldimporters.com,0,1,1,1,(415) 555-0102,(415) 555-0103,anthonyg@wideworldimporters.com,1,5/31/2016 23:14,
+13,Hudson Hollinworth,Hudson,Hudson Hudson Hollinworth,1,hudsonh@wideworldimporters.com,0,1,1,1,(415) 555-0102,(415) 555-0103,hudsonh@wideworldimporters.com,1,5/31/2016 23:14,
+14,Lily Code,Lily,Lily Lily Code,1,lilyc@wideworldimporters.com,0,1,1,1,(415) 555-0102,(415) 555-0103,lilyc@wideworldimporters.com,1,5/31/2016 23:14,
+15,Taj Shand,Taj,Taj Taj Shand,1,tajs@wideworldimporters.com,0,1,1,1,(415) 555-0102,(415) 555-0103,tajs@wideworldimporters.com,1,5/31/2016 23:14,
+16,Archer Lamble,Archer,Archer Archer Lamble,0,archerl@wideworldimporters.com,0,1,1,1,(415) 555-0102,(415) 555-0103,archerl@wideworldimporters.com,1,5/31/2016 23:14,
+20,Jack Potter,Jack,Jack Jack Potter,1,jackp@wideworldimporters.com,0,1,1,1,(415) 555-0102,(415) 555-0103,jackp@wideworldimporters.com,1,5/31/2016 23:14,
