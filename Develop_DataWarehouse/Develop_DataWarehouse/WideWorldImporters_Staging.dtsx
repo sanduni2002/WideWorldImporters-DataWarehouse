@@ -11,11 +11,355 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="WideWorldImporters_Staging"
   DTS:PackageType="5"
-  DTS:VersionBuild="21"
-  DTS:VersionGUID="{D27E0F54-6877-4B4C-AD4C-F70FC7E86403}">
+  DTS:VersionBuild="46"
+  DTS:VersionGUID="{98E02711-4493-4E6A-9443-2DA4782D134B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{63C1BB34-694B-452F-9F81-85FCABD906CA}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\pasin\OneDrive\Desktop\Assignment\WideWorldImporters-DataWarehouse\SalesPerson.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PersonID"
+              DTS:DTSID="{F53D480C-3EB4-4BD4-B09B-25D32FA44EE2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FullName"
+              DTS:DTSID="{7FFF4401-FF05-4B76-ABF3-C5BD9868A483}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PreferredName"
+              DTS:DTSID="{A953BFAA-A858-4A4B-8D85-19871BDE8CB5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SearchName"
+              DTS:DTSID="{5806C737-4F56-4BC4-B908-54182B62ED03}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IsPermittedToLogon"
+              DTS:DTSID="{343B022C-10AD-47EB-91C5-546D8C7A7C87}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LogonName"
+              DTS:DTSID="{6FC7622A-050C-445E-84B8-58C41EBF587F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IsExternalLogonProvider"
+              DTS:DTSID="{D3BA9EA8-E75D-4436-8911-6CFFAE47CB52}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IsSystemUser"
+              DTS:DTSID="{43C07293-A43C-4244-9003-F474853DBAC3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IsEmployee"
+              DTS:DTSID="{DF82AB43-91E9-4536-BDE8-2743F6042A5A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IsSalesperson"
+              DTS:DTSID="{B65A4086-B7D0-4778-B558-164602AFAB28}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PhoneNumber"
+              DTS:DTSID="{8797CA87-4E22-45FB-88BC-7ABFF32D26C6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FaxNumber"
+              DTS:DTSID="{F9AE61B1-F48A-4EB8-A799-DEF694DA9336}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="400"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="EmailAddress"
+              DTS:DTSID="{842C9038-A38D-4BD0-A413-57A1924B6DF3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LastEditedBy"
+              DTS:DTSID="{8FE4DB33-6C3D-43D9-AA66-024F9F27B9BA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="145"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ValidFrom"
+              DTS:DTSID="{3C1F9996-5AFC-40B6-93BC-DBC4739FDF7C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="145"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ValidTo"
+              DTS:DTSID="{EE60D384-7B48-4366-AE59-0B47217819BB}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{CF56E342-FF4B-4C56-8D8C-D73F6B07693F}"
+      DTS:ObjectName="Flat File Connection Manager 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\pawan\Videos\Assignment\Assignment\WideWorldImporters-DataWarehouse\SalesPerson.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PersonID"
+              DTS:DTSID="{4DEF47D9-F1EB-40FE-956B-573AC9A274BD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FullName"
+              DTS:DTSID="{0B0E0EC6-6C3D-4796-84BF-A594C41D4690}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PreferredName"
+              DTS:DTSID="{8A0695AD-A783-4AFB-8D19-D66E1DC40857}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SearchName"
+              DTS:DTSID="{6ED7DCD4-2201-4513-A8E1-5EDEE7856AFF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IsPermittedToLogon"
+              DTS:DTSID="{CFBEE0DB-B326-43A4-B266-659B4B4A63E5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LogonName"
+              DTS:DTSID="{EB0C1BD1-CDE6-4D20-AC78-7C1DD828F2E4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IsExternalLogonProvider"
+              DTS:DTSID="{3896CE14-D0A6-4AA8-91CE-9A2A80804091}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IsSystemUser"
+              DTS:DTSID="{157FF346-B129-4AA6-9004-4BB49A0C1D51}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IsEmployee"
+              DTS:DTSID="{7E1D9D23-669E-4BEB-8F5C-1FB35088DCD2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IsSalesperson"
+              DTS:DTSID="{8796218D-9812-437D-AC52-D5F3F6CF0BB0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PhoneNumber"
+              DTS:DTSID="{D6FAC63A-76AC-4BDF-AAEC-4CA10F59CA98}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FaxNumber"
+              DTS:DTSID="{365A914A-4696-468B-B2D1-5E2B4FCD3A07}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="EmailAddress"
+              DTS:DTSID="{3379A20A-6D6D-4E46-B9BA-FDC8D5295576}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LastEditedBy"
+              DTS:DTSID="{E8853FFD-FA90-449B-BBA9-D62931F406D5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="145"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ValidFrom"
+              DTS:DTSID="{55A17016-997B-4B57-AF36-D7A7B601A972}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="145"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ValidTo"
+              DTS:DTSID="{0444BDE6-B172-4CED-8AC5-17E031356AC9}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[PASI\SANU2002.WideWorldImporters]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{F395085B-F359-4109-808B-BE9AEB275591}"
+      DTS:ObjectName="PASI\SANU2002.WideWorldImporters">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=PASI\SANU2002;Initial Catalog=WideWorldImporters;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-WideWorldImporters_Staging-{F395085B-F359-4109-808B-BE9AEB275591}PASI\SANU2002.WideWorldImporters;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Pasi\SANU2002.WideWorldImporters_Staging]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{009E701F-8547-4280-9B3E-AA5BF4489A31}"
+      DTS:ObjectName="Pasi\SANU2002.WideWorldImporters_Staging">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=Pasi\SANU2002;Initial Catalog=WideWorldImporters_Staging;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-WideWorldImporters_Staging-{009E701F-8547-4280-9B3E-AA5BF4489A31}Pasi\SANU2002.WideWorldImporters_Staging;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Pawani\SANU2002.WideWorldImporters]"
       DTS:CreationName="OLEDB"
@@ -26,6 +370,18 @@
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
           DTS:ConnectionString="Data Source=Pawani\SANU2002;Initial Catalog=WideWorldImporters;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-WideWorldImporters_Staging-{D7680626-1F6D-4FEE-8674-D29CCE577F50}Pawani\SANU2002.WideWorldImporters;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Pawani\SANU2002.WideWorldImporters_DataWarehouse]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{4ABBE715-96DF-436A-B8C1-1F0F26A2A434}"
+      DTS:ObjectName="Pawani\SANU2002.WideWorldImporters_DataWarehouse">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=Pawani\SANU2002;Initial Catalog=WideWorldImporters_DataWarehouse;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-WideWorldImporters_Staging-{4ABBE715-96DF-436A-B8C1-1F0F26A2A434}Pawani\SANU2002.WideWorldImporters_DataWarehouse;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -43,6 +399,23 @@
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Execute DataWarehouse Package"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{5133b23e-3ac0-43d5-bd69-3ac4328573db}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute DataWarehouse Package"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>WideWorldImporters_DataWarehousing.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Extract BuyingGroups Data to Staging"
       DTS:CreationName="Microsoft.Pipeline"
@@ -113,7 +486,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_BuyingGroups]</property>
+                  name="OpenRowset">[dbo].[stg_BuyingGroups]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -524,7 +897,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_Cities]</property>
+                  name="OpenRowset">[dbo].[stg_Cities]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -1019,7 +1392,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_Colors]</property>
+                  name="OpenRowset">[dbo].[stg_Colors]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -1430,7 +1803,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_Countries]</property>
+                  name="OpenRowset">[dbo].[stg_Countries]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -3748,7 +4121,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_InvoiceLines]</property>
+                  name="OpenRowset">[dbo].[stg_InvoiceLines]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -4428,7 +4801,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_Invoices]</property>
+                  name="OpenRowset">[dbo].[stg_Invoices]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -5414,7 +5787,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_PackageType]</property>
+                  name="OpenRowset">[dbo].[stg_PackageType]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -5765,6 +6138,46 @@
       DTS:ObjectName="Extract SalesPeople Data to Staging"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
+      <DTS:EventHandlers>
+        <DTS:EventHandler
+          DTS:refId="Package\Extract SalesPeople Data to Staging.EventHandlers[OnPreExecute]"
+          DTS:CreationName="OnPreExecute"
+          DTS:DTSID="{4039751C-55DC-4D2B-B16D-6F8F1625ADC4}"
+          DTS:EventID="0"
+          DTS:EventName="OnPreExecute"
+          DTS:LocaleID="-1">
+          <DTS:Variables>
+            <DTS:Variable
+              DTS:CreationName=""
+              DTS:Description="The propagate property of the event"
+              DTS:DTSID="{FE827135-4C81-419A-96D4-E66CEC8CDA76}"
+              DTS:IncludeInDebugDump="6789"
+              DTS:Namespace="System"
+              DTS:ObjectName="Propagate">
+              <DTS:VariableValue
+                DTS:DataType="11">-1</DTS:VariableValue>
+            </DTS:Variable>
+          </DTS:Variables>
+          <DTS:Executables>
+            <DTS:Executable
+              DTS:refId="Package\Extract SalesPeople Data to Staging.EventHandlers[OnPreExecute]\Truncate  SalesPeople staging Table"
+              DTS:CreationName="Microsoft.ExecuteSQLTask"
+              DTS:Description="Execute SQL Task"
+              DTS:DTSID="{439fe571-d483-4098-87e1-82a8b81f0a1c}"
+              DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+              DTS:LocaleID="-1"
+              DTS:ObjectName="Truncate  SalesPeople staging Table"
+              DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+              <DTS:Variables />
+              <DTS:ObjectData>
+                <SQLTask:SqlTaskData
+                  SQLTask:Connection="{593EEF25-B02C-456A-95BC-2A6B63819EC3}"
+                  SQLTask:SqlStatementSource="truncate table dbo. stg_SalesPerson" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+              </DTS:ObjectData>
+            </DTS:Executable>
+          </DTS:Executables>
+        </DTS:EventHandler>
+      </DTS:EventHandlers>
       <DTS:ObjectData>
         <pipeline
           version="1">
@@ -5774,6 +6187,7 @@
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Flat File Source"
+              localeId="1033"
               name="Flat File Source"
               usesDispositions="true"
               version="1">
@@ -5781,7 +6195,7 @@
                 <property
                   dataType="System.Boolean"
                   description="Specifies whether zero-length columns are treated as null."
-                  name="RetainNulls">false</property>
+                  name="RetainNulls">true</property>
                 <property
                   dataType="System.String"
                   description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
@@ -5790,20 +6204,440 @@
               <connections>
                 <connection
                   refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 1]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
                 <output
                   refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output]"
                   name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[PersonID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PersonID]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[PersonID]"
+                      name="PersonID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[FullName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FullName]"
+                      length="50"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[FullName]"
+                      name="FullName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[PreferredName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PreferredName]"
+                      length="50"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[PreferredName]"
+                      name="PreferredName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[SearchName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SearchName]"
+                      length="50"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[SearchName]"
+                      name="SearchName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsPermittedToLogon]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsPermittedToLogon]"
+                      length="50"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsPermittedToLogon]"
+                      name="IsPermittedToLogon"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[LogonName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LogonName]"
+                      length="50"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[LogonName]"
+                      name="LogonName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsExternalLogonProvider]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsExternalLogonProvider]"
+                      length="50"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsExternalLogonProvider]"
+                      name="IsExternalLogonProvider"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsSystemUser]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsSystemUser]"
+                      length="50"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsSystemUser]"
+                      name="IsSystemUser"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsEmployee]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsEmployee]"
+                      length="50"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsEmployee]"
+                      name="IsEmployee"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsSalesperson]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsSalesperson]"
+                      length="50"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsSalesperson]"
+                      name="IsSalesperson"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[PhoneNumber]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PhoneNumber]"
+                      length="50"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[PhoneNumber]"
+                      name="PhoneNumber"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[FaxNumber]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FaxNumber]"
+                      length="50"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[FaxNumber]"
+                      name="FaxNumber"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[EmailAddress]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[EmailAddress]"
+                      length="400"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[EmailAddress]"
+                      name="EmailAddress"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[LastEditedBy]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LastEditedBy]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[LastEditedBy]"
+                      name="LastEditedBy"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[ValidFrom]"
+                      dataType="dbTime2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ValidFrom]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[ValidFrom]"
+                      name="ValidFrom"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[ValidTo]"
+                      dataType="dbTime2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ValidTo]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[ValidTo]"
+                      name="ValidTo"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
                   <externalMetadataColumns
-                    isUsed="True" />
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PersonID]"
+                      dataType="i4"
+                      name="PersonID" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FullName]"
+                      dataType="wstr"
+                      length="100"
+                      name="FullName" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PreferredName]"
+                      dataType="wstr"
+                      length="100"
+                      name="PreferredName" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SearchName]"
+                      dataType="wstr"
+                      length="50"
+                      name="SearchName" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsPermittedToLogon]"
+                      dataType="wstr"
+                      length="50"
+                      name="IsPermittedToLogon" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LogonName]"
+                      dataType="wstr"
+                      length="50"
+                      name="LogonName" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsExternalLogonProvider]"
+                      dataType="wstr"
+                      length="50"
+                      name="IsExternalLogonProvider" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsSystemUser]"
+                      dataType="wstr"
+                      length="50"
+                      name="IsSystemUser" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsEmployee]"
+                      dataType="wstr"
+                      length="50"
+                      name="IsEmployee" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[IsSalesperson]"
+                      dataType="wstr"
+                      length="50"
+                      name="IsSalesperson" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PhoneNumber]"
+                      dataType="wstr"
+                      length="50"
+                      name="PhoneNumber" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FaxNumber]"
+                      dataType="wstr"
+                      length="50"
+                      name="FaxNumber" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[EmailAddress]"
+                      dataType="wstr"
+                      length="50"
+                      name="EmailAddress" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LastEditedBy]"
+                      dataType="i4"
+                      name="LastEditedBy" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ValidFrom]"
+                      dataType="dbTime2"
+                      name="ValidFrom" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ValidTo]"
+                      dataType="dbTime2"
+                      name="ValidTo" />
+                  </externalMetadataColumns>
                 </output>
                 <output
                   refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Error Output]"
                   isErrorOut="true"
                   name="Flat File Source Error Output">
                   <outputColumns>
+                    <outputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
                     <outputColumn
                       refId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
@@ -5837,7 +6671,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset"></property>
+                  name="OpenRowset">[stg_SalesPerson]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -5859,7 +6693,7 @@
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  typeConverter="AccessMode">3</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
@@ -5871,7 +6705,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                  name="FastLoadOptions"></property>
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
@@ -5880,6 +6714,8 @@
               <connections>
                 <connection
                   refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Pawani\SANU2002.WideWorldImporters_Staging]"
+                  connectionManagerRefId="Package.ConnectionManagers[Pawani\SANU2002.WideWorldImporters_Staging]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -5890,8 +6726,195 @@
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[PersonID]"
+                      cachedDataType="i4"
+                      cachedName="PersonID"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[PersonID]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[PersonID]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[FullName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="FullName"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[FullName]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[FullName]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[PreferredName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="PreferredName"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[PreferredName]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[PreferredName]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[SearchName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="SearchName"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[SearchName]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[SearchName]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[IsPermittedToLogon]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="IsPermittedToLogon"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[IsPermittedToLogon]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsPermittedToLogon]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[LogonName]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="LogonName"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[LogonName]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[LogonName]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[IsExternalLogonProvider]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="IsExternalLogonProvider"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[IsExternalLogonProvider]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsExternalLogonProvider]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[IsSystemUser]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="IsSystemUser"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[IsSystemUser]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsSystemUser]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[IsEmployee]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="IsEmployee"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[IsEmployee]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsEmployee]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[IsSalesperson]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="IsSalesperson"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[IsSalesperson]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[IsSalesperson]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[PhoneNumber]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="PhoneNumber"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[PhoneNumber]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[PhoneNumber]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[FaxNumber]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="FaxNumber"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[FaxNumber]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[FaxNumber]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[EmailAddress]"
+                      cachedDataType="wstr"
+                      cachedLength="400"
+                      cachedName="EmailAddress"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[EmailAddress]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[EmailAddress]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[LastEditedBy]"
+                      cachedDataType="i4"
+                      cachedName="LastEditedBy"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[LastEditedBy]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[LastEditedBy]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[ValidFrom]"
+                      cachedDataType="dbTime2"
+                      cachedName="ValidFrom"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[ValidFrom]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[ValidFrom]" />
+                    <inputColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].Columns[ValidTo]"
+                      cachedDataType="dbTime2"
+                      cachedName="ValidTo"
+                      externalMetadataColumnId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[ValidTo]"
+                      lineageId="Package\Extract SalesPeople Data to Staging\Flat File Source.Outputs[Flat File Source Output].Columns[ValidTo]" />
+                  </inputColumns>
                   <externalMetadataColumns
-                    isUsed="True" />
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[PersonID]"
+                      dataType="i4"
+                      name="PersonID" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[FullName]"
+                      dataType="wstr"
+                      length="50"
+                      name="FullName" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[PreferredName]"
+                      dataType="wstr"
+                      length="50"
+                      name="PreferredName" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[SearchName]"
+                      dataType="wstr"
+                      length="50"
+                      name="SearchName" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[IsPermittedToLogon]"
+                      dataType="wstr"
+                      length="50"
+                      name="IsPermittedToLogon" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[LogonName]"
+                      dataType="wstr"
+                      length="50"
+                      name="LogonName" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[IsExternalLogonProvider]"
+                      dataType="wstr"
+                      length="50"
+                      name="IsExternalLogonProvider" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[IsSystemUser]"
+                      dataType="wstr"
+                      length="50"
+                      name="IsSystemUser" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[IsEmployee]"
+                      dataType="wstr"
+                      length="50"
+                      name="IsEmployee" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[IsSalesperson]"
+                      dataType="wstr"
+                      length="50"
+                      name="IsSalesperson" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[PhoneNumber]"
+                      dataType="wstr"
+                      length="50"
+                      name="PhoneNumber" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[FaxNumber]"
+                      dataType="wstr"
+                      length="50"
+                      name="FaxNumber" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[EmailAddress]"
+                      dataType="wstr"
+                      length="400"
+                      name="EmailAddress" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[LastEditedBy]"
+                      dataType="i4"
+                      name="LastEditedBy" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[ValidFrom]"
+                      dataType="dbTime2"
+                      name="ValidFrom" />
+                    <externalMetadataColumn
+                      refId="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table.Inputs[OLE DB Destination Input].ExternalColumns[ValidTo]"
+                      dataType="dbTime2"
+                      name="ValidTo" />
+                  </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
@@ -6000,7 +7023,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_StateProvinces]</property>
+                  name="OpenRowset">[dbo].[stg_StateProvinces]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -6561,7 +7584,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_StockGroups]</property>
+                  name="OpenRowset">[dbo].[stg_StockGroups]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -6972,7 +7995,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_StockItems]</property>
+                  name="OpenRowset">[dbo].[stg_StockItems]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -7998,7 +9021,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_StockItemStockGroups]</property>
+                  name="OpenRowset">[dbo].[stg_StockItemStockGroups]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -8399,7 +9422,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_Suppliers]</property>
+                  name="OpenRowset">[dbo].[stg_Suppliers]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -9487,6 +10510,374 @@
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Update Transaction Completion Info"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{A77DB126-0B87-4662-B4BF-D7F1050A235D}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Update Transaction Completion Info"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Update Transaction Completion Info\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Update Transaction Completion Info\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Update Transaction Completion Info\Derived Column.Inputs[Derived Column Input].Columns[accm_txn_complete_time]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="accm_txn_complete_time"
+                      lineageId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output].Columns[accm_txn_complete_time]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Update Transaction Completion Info\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Update Transaction Completion Info\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Update Transaction Completion Info\Derived Column.Outputs[Derived Column Output].Columns[accm_txn_complete_time_dup]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Update Transaction Completion Info\Derived Column.Outputs[Derived Column Output].Columns[accm_txn_complete_time_dup]"
+                      name="accm_txn_complete_time_dup"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output].Columns[accm_txn_complete_time]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">accm_txn_complete_time</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Update Transaction Completion Info\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Update Transaction Completion Info\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Update Transaction Completion Info\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Update Transaction Completion Info\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Update Transaction Completion Info\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Update Transaction Completion Info\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Update Transaction Completion Info\OLE DB Command"
+              componentClassID="Microsoft.OLEDBCommand"
+              contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+              description="Runs an SQL statement for each row in a data flow. For example, call a 'new employee setup' stored procedure for each row in the 'new employees' table. Note: running an SQL statement for each row of a large data flow may take a long time."
+              name="OLE DB Command"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[FactSales]
+SET accm_txn_complete_time = ?,
+    txn_process_time_hours = DATEDIFF(HOUR, accm_txn_create_time, ?)
+WHERE SalesID = ?
+</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Update Transaction Completion Info\OLE DB Command.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Pawani\SANU2002.WideWorldImporters_DataWarehouse]"
+                  connectionManagerRefId="Package.ConnectionManagers[Pawani\SANU2002.WideWorldImporters_DataWarehouse]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input]"
+                  errorOrTruncationOperation="Command Execution"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Command Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input].Columns[accm_txn_complete_time]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="accm_txn_complete_time"
+                      externalMetadataColumnId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      lineageId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output].Columns[accm_txn_complete_time]" />
+                    <inputColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input].Columns[accm_txn_complete_time_dup]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="accm_txn_complete_time_dup"
+                      externalMetadataColumnId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      lineageId="Package\Update Transaction Completion Info\Derived Column.Outputs[Derived Column Output].Columns[accm_txn_complete_time_dup]" />
+                    <inputColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input].Columns[txn_id]"
+                      cachedDataType="i4"
+                      cachedName="txn_id"
+                      externalMetadataColumnId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      lineageId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output].Columns[txn_id]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      dataType="dbTimeStamp"
+                      name="Param_0">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      dataType="dbTimeStamp"
+                      name="Param_1">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      dataType="i4"
+                      name="Param_2">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Update Transaction Completion Info\OLE DB Command.Outputs[OLE DB Command Output]"
+                  exclusionGroup="1"
+                  name="OLE DB Command Output"
+                  synchronousInputId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Update Transaction Completion Info\OLE DB Command.Outputs[OLE DB Command Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Command Error Output"
+                  synchronousInputId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Update Transaction Completion Info\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Update Transaction Completion Info\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Update Transaction Completion Info\OLE DB Source"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="OLE DB Source"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT txn_id, accm_txn_complete_time
+FROM Stg_TxnCompletionUpdates</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Update Transaction Completion Info\OLE DB Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Pawani\SANU2002.WideWorldImporters_Staging]"
+                  connectionManagerRefId="Package.ConnectionManagers[Pawani\SANU2002.WideWorldImporters_Staging]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output].Columns[txn_id]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[txn_id]"
+                      lineageId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output].Columns[txn_id]"
+                      name="txn_id"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output].Columns[accm_txn_complete_time]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[accm_txn_complete_time]"
+                      lineageId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output].Columns[accm_txn_complete_time]"
+                      name="accm_txn_complete_time"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[txn_id]"
+                      dataType="i4"
+                      name="txn_id" />
+                    <externalMetadataColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[accm_txn_complete_time]"
+                      dataType="dbTimeStamp"
+                      name="accm_txn_complete_time" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[txn_id]"
+                      dataType="i4"
+                      lineageId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[txn_id]"
+                      name="txn_id" />
+                    <outputColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[accm_txn_complete_time]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[accm_txn_complete_time]"
+                      name="accm_txn_complete_time" />
+                    <outputColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Update Transaction Completion Info.Paths[Derived Column Output]"
+              endId="Package\Update Transaction Completion Info\OLE DB Command.Inputs[OLE DB Command Input]"
+              name="Derived Column Output"
+              startId="Package\Update Transaction Completion Info\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Update Transaction Completion Info.Paths[OLE DB Source Output]"
+              endId="Package\Update Transaction Completion Info\Derived Column.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Update Transaction Completion Info\OLE DB Source.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -9537,6 +10928,22 @@
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 13"
       DTS:To="Package\Extract InvoiceLines Data to Staging" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 14]"
+      DTS:CreationName=""
+      DTS:DTSID="{8D1A718A-B3E6-493D-B577-EE6AD651CF8D}"
+      DTS:From="Package\Update Transaction Completion Info"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 14"
+      DTS:To="Package\Execute DataWarehouse Package" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 15]"
+      DTS:CreationName=""
+      DTS:DTSID="{6258A74E-FFCF-4F89-BACF-D4D48F25DAFF}"
+      DTS:From="Package\Extract InvoiceLines Data to Staging"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 15"
+      DTS:To="Package\Update Transaction Completion Info" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
@@ -9636,15 +11043,15 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="253.6,41.6"
           Id="Package\Extract BuyingGroups Data to Staging"
-          TopLeft="28.3,5.49999999999995" />
+          TopLeft="28.3,5.50000000000018" />
         <NodeLayout
-          Size="213.6,41.6"
+          Size="214.4,41.6"
           Id="Package\Extract Cities Data to Staging"
-          TopLeft="48.3000000000001,513.5" />
+          TopLeft="47.9,513.5" />
         <NodeLayout
           Size="217.6,41.6"
           Id="Package\Extract Colors Data to Staging"
@@ -9652,31 +11059,31 @@
         <NodeLayout
           Size="232,41.6"
           Id="Package\Extract Countries Data to Staging"
-          TopLeft="39.1000000000001,310.3" />
+          TopLeft="39.1,310.3" />
         <NodeLayout
-          Size="283.2,41.6"
+          Size="296,41.6"
           Id="Package\Extract CustomerCategories Data to Staging"
-          TopLeft="13.5,107.1" />
+          TopLeft="7.09999999999999,107.100000000001" />
         <NodeLayout
           Size="238.4,41.6"
           Id="Package\Extract Customers Data to Staging"
           TopLeft="35.9,208.7" />
         <NodeLayout
-          Size="245.6,41.6"
+          Size="246.4,41.6"
           Id="Package\Extract InvoiceLines Data to Staging"
-          TopLeft="32.3000000000002,1427.9" />
+          TopLeft="31.9000000000002,1427.9" />
         <NodeLayout
           Size="225.6,41.6"
           Id="Package\Extract Invoices Data to Staging"
-          TopLeft="42.3000000000002,1326.3" />
+          TopLeft="42.3000000000001,1326.3" />
         <NodeLayout
           Size="256.8,41.6"
           Id="Package\Extract PackageTypes Data to Staging"
-          TopLeft="26.7000000000002,1224.7" />
+          TopLeft="26.7000000000001,1224.7" />
         <NodeLayout
-          Size="246.4,41.6"
+          Size="256.8,41.6"
           Id="Package\Extract SalesPeople Data to Staging"
-          TopLeft="31.9000000000001,615.099999999999" />
+          TopLeft="26.7,615.1" />
         <NodeLayout
           Size="257.6,41.6"
           Id="Package\Extract StateProvinces Data to Staging"
@@ -9684,33 +11091,33 @@
         <NodeLayout
           Size="248,41.6"
           Id="Package\Extract StockGroups Data to Staging"
-          TopLeft="31.1000000000001,716.699999999999" />
+          TopLeft="31.1000000000001,716.7" />
         <NodeLayout
           Size="239.2,41.6"
           Id="Package\Extract StockItems Data to Staging"
-          TopLeft="35.5000000000001,919.899999999999" />
+          TopLeft="35.5000000000001,919.9" />
         <NodeLayout
           Size="299.2,41.6"
           Id="Package\Extract StockItemsStockGroups Data to Staging"
-          TopLeft="5.50000000000011,818.299999999999" />
+          TopLeft="5.50000000000009,818.3" />
         <NodeLayout
           Size="231.2,41.6"
           Id="Package\Extract Suppliers Data to Staging"
           TopLeft="39.5000000000001,1123.1" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="155.1,47.1">
+          TopLeft="155.1,47.1000000000002">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="0,60.0000000000004"
               Start="0,0"
-              End="0,52.5">
+              End="0,52.5000000000004">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,52.5000000000004" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9721,18 +11128,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="155.1,148.7">
+          TopLeft="155.1,148.700000000001">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="0,59.9999999999999"
               Start="0,0"
-              End="0,52.5">
+              End="0,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9769,28 +11176,6 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000002"
-              Start="0,0"
-              End="0,52.5000000000002">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5000000000002" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 12]"
-          TopLeft="155.1,1266.3">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
               EndConnector="0,60"
               Start="0,0"
               End="0,52.5">
@@ -9808,8 +11193,8 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 13]"
-          TopLeft="155.1,1367.9">
+          Id="Package.PrecedenceConstraints[Constraint 12]"
+          TopLeft="155.1,1266.3">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -9830,8 +11215,8 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="155.1,250.3">
+          Id="Package.PrecedenceConstraints[Constraint 13]"
+          TopLeft="155.1,1367.9">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -9843,6 +11228,28 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="155.1,250.3">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59.9999999999999"
+              Start="0,0"
+              End="0,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9879,14 +11286,14 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="0,59.9999999999999"
               Start="0,0"
-              End="0,52.5">
+              End="0,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9901,14 +11308,14 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.999999999999"
+              EndConnector="0,59.9999999999999"
               Start="0,0"
-              End="0,52.499999999999">
+              End="0,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.499999999999" />
+                    End="0,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9919,18 +11326,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="155.1,656.699999999999">
+          TopLeft="155.1,656.7">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="0,59.9999999999999"
               Start="0,0"
-              End="0,52.5">
+              End="0,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9941,18 +11348,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="155.1,758.299999999999">
+          TopLeft="155.1,758.3">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="0,59.9999999999999"
               Start="0,0"
-              End="0,52.5">
+              End="0,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9963,7 +11370,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 8]"
-          TopLeft="155.1,859.899999999999">
+          TopLeft="155.1,859.9">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -9985,18 +11392,70 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 9]"
-          TopLeft="155.1,961.499999999999">
+          TopLeft="155.1,961.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000001"
+              EndConnector="0,59.9999999999999"
               Start="0,0"
-              End="0,52.5000000000001">
+              End="0,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000001" />
+                    End="0,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="247.2,41.6"
+          Id="Package\Execute DataWarehouse Package"
+          TopLeft="31.5000000000002,1631.1" />
+        <NodeLayout
+          Size="244.8,41.6"
+          Id="Package\Update Transaction Completion Info"
+          TopLeft="32.7000000000002,1529.5" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 14]"
+          TopLeft="155.1,1571.1">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 15]"
+          TopLeft="155.1,1469.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60.0000000000005"
+              Start="0,0"
+              End="0,52.5000000000005">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5000000000005" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10012,15 +11471,15 @@
     design-time-name="Package\Extract BuyingGroups Data to Staging">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="152,41.6"
-          Id="Package\Extract BuyingGroups Data to Staging\OLE DB Source"
-          TopLeft="103.333327687449,79.7333327788777" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="273.6,41.6"
           Id="Package\Extract BuyingGroups Data to Staging\Load BuyingGroups Data to Staging Table"
           TopLeft="175.833323726224,185.466665376955" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Extract BuyingGroups Data to Staging\OLE DB Source"
+          TopLeft="103.333327687449,79.7333327788777" />
         <EdgeLayout
           Id="Package\Extract BuyingGroups Data to Staging.Paths[OLE DB Source Output]"
           TopLeft="179.333327687449,121.333332778878">
@@ -10052,12 +11511,39 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract BuyingGroups Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="246.4,41.6"
+          Id="Package\Extract BuyingGroups Data to Staging.EventHandlers[OnPreExecute]\Truncate BuyingGroups Table"
+          TopLeft="60,60" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract BuyingGroups Data to Staging\Load BuyingGroups Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Extract BuyingGroups Data to Staging\OLE DB Source">
     <Properties>
@@ -10075,15 +11561,15 @@
     design-time-name="Package\Extract Cities Data to Staging">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="152,41.6"
-          Id="Package\Extract Cities Data to Staging\OLE DB Source"
-          TopLeft="167.999997496605,102.99999846518" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="233.6,41.6"
           Id="Package\Extract Cities Data to Staging\Load Cities Data to Staging Table"
           TopLeft="167.999997496605,204.59999846518" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Extract Cities Data to Staging\OLE DB Source"
+          TopLeft="167.999997496605,102.99999846518" />
         <EdgeLayout
           Id="Package\Extract Cities Data to Staging.Paths[OLE DB Source Output]"
           TopLeft="243.999997496605,144.59999846518">
@@ -10115,12 +11601,39 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract Cities Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="246.4,41.6"
+          Id="Package\Extract Cities Data to Staging.EventHandlers[OnPreExecute]\Truncate  Cities staging Table"
+          TopLeft="60,60" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract Cities Data to Staging\Load Cities Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Extract Cities Data to Staging\OLE DB Source">
     <Properties>
@@ -10140,13 +11653,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="238.4,41.6"
+          Id="Package\Extract Colors Data to Staging\Load Colors Data to Staging Table"
+          TopLeft="171.999997437,216.599998286366" />
+        <NodeLayout
           Size="152,41.6"
           Id="Package\Extract Colors Data to Staging\OLE DB Source"
           TopLeft="171.999997437,114.999998286366" />
-        <NodeLayout
-          Size="237.6,41.6"
-          Id="Package\Extract Colors Data to Staging\Load Colors Data to Staging Table"
-          TopLeft="171.999997437,216.599998286366" />
         <EdgeLayout
           Id="Package\Extract Colors Data to Staging.Paths[OLE DB Source Output]"
           TopLeft="247.999997437,156.599998286366">
@@ -10184,6 +11697,31 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract Colors Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="219.2,41.6"
+          Id="Package\Extract Colors Data to Staging.EventHandlers[OnPreExecute]\Truncate Colors Staging Table"
+          TopLeft="280.999995812774,150.999997749925" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract Colors Data to Staging\Load Colors Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Extract Colors Data to Staging\OLE DB Source">
     <Properties>
@@ -10201,7 +11739,7 @@
     design-time-name="Package\Extract Countries Data to Staging">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="152,41.6"
           Id="Package\Extract Countries Data to Staging\OLE DB Source"
@@ -10241,12 +11779,39 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract Countries Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="246.4,41.6"
+          Id="Package\Extract Countries Data to Staging.EventHandlers[OnPreExecute]\Truncate Countries Table"
+          TopLeft="60,60" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract Countries Data to Staging\Load Countries Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Extract Countries Data to Staging\OLE DB Source">
     <Properties>
@@ -10264,15 +11829,15 @@
     design-time-name="Package\Extract CustomerCategories Data to Staging">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="152,41.6"
-          Id="Package\Extract CustomerCategories Data to Staging\OLE DB Source"
-          TopLeft="170.999997451901,60.9999990910292" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="303.2,41.6"
           Id="Package\Extract CustomerCategories Data to Staging\Load CustomerCategories Data to Staging Table"
           TopLeft="170.999997451901,162.599999091029" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Extract CustomerCategories Data to Staging\OLE DB Source"
+          TopLeft="170.999997451901,60.9999990910292" />
         <EdgeLayout
           Id="Package\Extract CustomerCategories Data to Staging.Paths[OLE DB Source Output]"
           TopLeft="246.999997451901,102.599999091029">
@@ -10304,12 +11869,39 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract CustomerCategories Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="246.4,41.6"
+          Id="Package\Extract CustomerCategories Data to Staging.EventHandlers[OnPreExecute]\Truncate CustomerCategories Table"
+          TopLeft="158.999997630715,57.9999991357327" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract CustomerCategories Data to Staging\Load CustomerCategories Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Extract CustomerCategories Data to Staging\OLE DB Source">
     <Properties>
@@ -10327,7 +11919,7 @@
     design-time-name="Package\Extract Customers Data to Staging">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="152,41.6"
           Id="Package\Extract Customers Data to Staging\OLE DB Source"
@@ -10367,12 +11959,52 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract Customers Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="246.4,41.6"
+          Id="Package\Extract Customers Data to Staging.EventHandlers[OnPreExecute]\Truncate  Customers Table"
+          TopLeft="60,60" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract Customers Data to Staging\Load Customers Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract Customers Data to Staging\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Extract InvoiceLines Data to Staging">
     <LayoutInfo>
@@ -10423,6 +12055,31 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract InvoiceLines Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="241.6,41.6"
+          Id="Package\Extract InvoiceLines Data to Staging.EventHandlers[OnPreExecute]\Truncate InvoiceLines staging table"
+          TopLeft="326.99999512732,74.9999988824129" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract InvoiceLines Data to Staging\Load InvoiceLines Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Extract InvoiceLines Data to Staging\OLE DB Source">
     <Properties>
@@ -10446,7 +12103,7 @@
           Id="Package\Extract Invoices Data to Staging\OLE DB Source"
           TopLeft="141.999997884035,118.999998226762" />
         <NodeLayout
-          Size="245.6,41.6"
+          Size="246.4,41.6"
           Id="Package\Extract Invoices Data to Staging\Load Invoices Data to Staging Table"
           TopLeft="141.999997884035,220.599998226762" />
         <EdgeLayout
@@ -10486,6 +12143,31 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract Invoices Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="224,41.6"
+          Id="Package\Extract Invoices Data to Staging.EventHandlers[OnPreExecute]\Truncate Invoices Staging table"
+          TopLeft="302.999995484948,149.999997764826" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract Invoices Data to Staging\Load Invoices Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Extract Invoices Data to Staging\OLE DB Source">
     <Properties>
@@ -10505,13 +12187,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="152,41.6"
-          Id="Package\Extract PackageTypes Data to Staging\OLE DB Source"
-          TopLeft="283.99999576807,121.999998182058" />
-        <NodeLayout
           Size="271.2,41.6"
           Id="Package\Extract PackageTypes Data to Staging\Load PackageType Data to Staging Table"
           TopLeft="283.99999576807,223.599998182058" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Extract PackageTypes Data to Staging\OLE DB Source"
+          TopLeft="283.99999576807,121.999998182058" />
         <EdgeLayout
           Id="Package\Extract PackageTypes Data to Staging.Paths[OLE DB Source Output]"
           TopLeft="359.99999576807,163.599998182058">
@@ -10549,19 +12231,57 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract PackageTypes Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="252,41.6"
+          Id="Package\Extract PackageTypes Data to Staging.EventHandlers[OnPreExecute]\Truncate Package Type Staging table"
+          TopLeft="396.999994084239,227.999996602535" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract PackageTypes Data to Staging\Load PackageType Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract PackageTypes Data to Staging\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Extract SalesPeople Data to Staging">
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="151.2,41.6"
-          Id="Package\Extract SalesPeople Data to Staging\Flat File Source"
-          TopLeft="361.99999460578,102.99999846518" />
-        <NodeLayout
           Size="265.6,41.6"
           Id="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table"
           TopLeft="361.99999460578,204.59999846518" />
+        <NodeLayout
+          Size="151.2,41.6"
+          Id="Package\Extract SalesPeople Data to Staging\Flat File Source"
+          TopLeft="361.99999460578,102.99999846518" />
         <EdgeLayout
           Id="Package\Extract SalesPeople Data to Staging.Paths[Flat File Source Output]"
           TopLeft="437.59999460578,144.59999846518">
@@ -10599,17 +12319,42 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract SalesPeople Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="246.4,41.6"
+          Id="Package\Extract SalesPeople Data to Staging.EventHandlers[OnPreExecute]\Truncate  SalesPeople staging Table"
+          TopLeft="449,76" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract SalesPeople Data to Staging\Load SalesPeople Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Extract StateProvinces Data to Staging">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="152,41.6"
           Id="Package\Extract StateProvinces Data to Staging\OLE DB Source"
           TopLeft="133.999998003244,53.9999991953373" />
         <NodeLayout
-          Size="277.6,41.6"
+          Size="278.4,41.6"
           Id="Package\Extract StateProvinces Data to Staging\Load StateProvinces Data to Staging Table"
           TopLeft="133.999998003244,155.599999195337" />
         <EdgeLayout
@@ -10643,12 +12388,39 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract StateProvinces Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="246.4,41.6"
+          Id="Package\Extract StateProvinces Data to Staging.EventHandlers[OnPreExecute]\Truncate  StateProvinces staging Table"
+          TopLeft="60,60" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract StateProvinces Data to Staging\Load StateProvinces Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Extract StateProvinces Data to Staging\OLE DB Source">
     <Properties>
@@ -10668,13 +12440,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="152,41.6"
-          Id="Package\Extract StockGroups Data to Staging\OLE DB Source"
-          TopLeft="136.999997958541,116.999998256564" />
-        <NodeLayout
           Size="267.2,41.6"
           Id="Package\Extract StockGroups Data to Staging\Load StockGroups Data to Staging Table"
           TopLeft="136.999997958541,218.599998256564" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Extract StockGroups Data to Staging\OLE DB Source"
+          TopLeft="136.999997958541,116.999998256564" />
         <EdgeLayout
           Id="Package\Extract StockGroups Data to Staging.Paths[OLE DB Source Output]"
           TopLeft="212.999997958541,158.599998256564">
@@ -10712,6 +12484,31 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract StockGroups Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="246.4,41.6"
+          Id="Package\Extract StockGroups Data to Staging.EventHandlers[OnPreExecute]\Truncate  StockGroups Staging Table"
+          TopLeft="60,60" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract StockGroups Data to Staging\Load StockGroups Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Extract StockGroups Data to Staging\OLE DB Source">
     <Properties>
@@ -10775,6 +12572,31 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract StockItems Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="246.4,41.6"
+          Id="Package\Extract StockItems Data to Staging.EventHandlers[OnPreExecute]\Truncate StockItems Staging Table"
+          TopLeft="60,60" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract StockItems Data to Staging\Load StockItems Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Extract StockItems Data to Staging\OLE DB Source">
     <Properties>
@@ -10794,13 +12616,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="152,41.6"
-          Id="Package\Extract StockItemsStockGroups Data to Staging\OLE DB Source"
-          TopLeft="169.999997466803,110.999998345971" />
-        <NodeLayout
           Size="313.6,41.6"
           Id="Package\Extract StockItemsStockGroups Data to Staging\Load StockItemStockGroups Data to Staging Table"
           TopLeft="169.999997466803,212.599998345971" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Extract StockItemsStockGroups Data to Staging\OLE DB Source"
+          TopLeft="169.999997466803,110.999998345971" />
         <EdgeLayout
           Id="Package\Extract StockItemsStockGroups Data to Staging.Paths[OLE DB Source Output]"
           TopLeft="245.999997466803,152.599998345971">
@@ -10838,6 +12660,31 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\Extract StockItemsStockGroups Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="295.2,41.6"
+          Id="Package\Extract StockItemsStockGroups Data to Staging.EventHandlers[OnPreExecute]\Truncate StockItemStockGroups Staging Table"
+          TopLeft="251.999996244907,104.999998435378" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Extract StockItemsStockGroups Data to Staging\Load StockItemStockGroups Data to Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Extract StockItemsStockGroups Data to Staging\OLE DB Source">
     <Properties>
@@ -10857,13 +12704,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="152,41.6"
-          Id="Package\Extract Suppliers Data to Staging\OLE DB Source"
-          TopLeft="187.999997198582,72.9999989122152" />
-        <NodeLayout
           Size="251.2,41.6"
           Id="Package\Extract Suppliers Data to Staging\Load Suppliers Data to Staging Table"
           TopLeft="187.999997198582,174.599998912215" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Extract Suppliers Data to Staging\OLE DB Source"
+          TopLeft="187.999997198582,72.9999989122152" />
         <EdgeLayout
           Id="Package\Extract Suppliers Data to Staging.Paths[OLE DB Source Output]"
           TopLeft="263.999997198582,114.599998912215">
@@ -10901,175 +12748,18 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract Suppliers Data to Staging\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract Customers Data to Staging\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract PackageTypes Data to Staging\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract BuyingGroups Data to Staging\Load BuyingGroups Data to Staging Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract CustomerCategories Data to Staging\Load CustomerCategories Data to Staging Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract Customers Data to Staging\Load Customers Data to Staging Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract Countries Data to Staging\Load Countries Data to Staging Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract StateProvinces Data to Staging\Load StateProvinces Data to Staging Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract Cities Data to Staging\Load Cities Data to Staging Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract StockGroups Data to Staging\Load StockGroups Data to Staging Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract StockItemsStockGroups Data to Staging\Load StockItemStockGroups Data to Staging Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract StockItems Data to Staging\Load StockItems Data to Staging Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract Colors Data to Staging\Load Colors Data to Staging Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
+  <DtsEventHandler
+    design-time-name="Package\Extract Suppliers Data to Staging.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="232.8,41.6"
+          Id="Package\Extract Suppliers Data to Staging.EventHandlers[OnPreExecute]\Truncate Suppliers Staging Table"
+          TopLeft="179.999997317791,70.9999989420176" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
   <PipelineComponentMetadata
     design-time-name="Package\Extract Suppliers Data to Staging\Load Suppliers Data to Staging Table">
     <Properties>
@@ -11084,7 +12774,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Extract PackageTypes Data to Staging\Load PackageType Data to Staging Table">
+    design-time-name="Package\Extract Suppliers Data to Staging\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -11096,199 +12786,101 @@
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Update Transaction Completion Info">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Update Transaction Completion Info\OLE DB Source"
+          TopLeft="216.999996766448,60.9999990910292" />
+        <NodeLayout
+          Size="167.2,41.6"
+          Id="Package\Update Transaction Completion Info\OLE DB Command"
+          TopLeft="212.999996826053,235.999996483326" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Update Transaction Completion Info\Derived Column"
+          TopLeft="231.999996542931,156.999997660518" />
+        <EdgeLayout
+          Id="Package\Update Transaction Completion Info.Paths[OLE DB Source Output]"
+          TopLeft="292.999996766448,102.599999091029">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="15.3999997764826,54.3999985694885"
+              Start="0,0"
+              End="15.3999997764826,46.8999985694885">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.1999992847443" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.1999992847443"
+                    Point2="0,27.1999992847443"
+                    Point3="4,27.1999992847443" />
+                  <mssgle:LineSegment
+                    End="11.3999997764826,27.1999992847443" />
+                  <mssgle:CubicBezierSegment
+                    Point1="11.3999997764826,27.1999992847443"
+                    Point2="15.3999997764826,27.1999992847443"
+                    Point3="15.3999997764826,31.1999992847443" />
+                  <mssgle:LineSegment
+                    End="15.3999997764826,46.8999985694885" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update Transaction Completion Info.Paths[Derived Column Output]"
+          TopLeft="308.399996542931,198.599997660518">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-11.7999997168779,37.3999988228083"
+              Start="0,0"
+              End="-11.7999997168779,29.8999988228083">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.6999994114041" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.6999994114041"
+                    Point2="0,18.6999994114041"
+                    Point3="-4,18.6999994114041" />
+                  <mssgle:LineSegment
+                    End="-7.79999971687795,18.6999994114041" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-7.79999971687795,18.6999994114041"
+                    Point2="-11.7999997168779,18.6999994114041"
+                    Point3="-11.7999997168779,22.6999994114041" />
+                  <mssgle:LineSegment
+                    End="-11.7999997168779,29.8999988228083" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Extract Invoices Data to Staging\Load Invoices Data to Staging Table">
+    design-time-name="Package\Update Transaction Completion Info\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Extract InvoiceLines Data to Staging\Load InvoiceLines Data to Staging Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <DtsEventHandler
-    design-time-name="Package\Extract CustomerCategories Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="246.4,41.6"
-          Id="Package\Extract CustomerCategories Data to Staging.EventHandlers[OnPreExecute]\Truncate CustomerCategories Table"
-          TopLeft="158.999997630715,57.9999991357327" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract BuyingGroups Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="246.4,41.6"
-          Id="Package\Extract BuyingGroups Data to Staging.EventHandlers[OnPreExecute]\Truncate BuyingGroups Table"
-          TopLeft="60,60" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract Customers Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="246.4,41.6"
-          Id="Package\Extract Customers Data to Staging.EventHandlers[OnPreExecute]\Truncate  Customers Table"
-          TopLeft="60,60" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract Countries Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="246.4,41.6"
-          Id="Package\Extract Countries Data to Staging.EventHandlers[OnPreExecute]\Truncate Countries Table"
-          TopLeft="60,60" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract StateProvinces Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="246.4,41.6"
-          Id="Package\Extract StateProvinces Data to Staging.EventHandlers[OnPreExecute]\Truncate  StateProvinces staging Table"
-          TopLeft="60,60" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract Cities Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="246.4,41.6"
-          Id="Package\Extract Cities Data to Staging.EventHandlers[OnPreExecute]\Truncate  Cities staging Table"
-          TopLeft="60,60" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract StockGroups Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="246.4,41.6"
-          Id="Package\Extract StockGroups Data to Staging.EventHandlers[OnPreExecute]\Truncate  StockGroups Staging Table"
-          TopLeft="60,60" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract StockItemsStockGroups Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="295.2,41.6"
-          Id="Package\Extract StockItemsStockGroups Data to Staging.EventHandlers[OnPreExecute]\Truncate StockItemStockGroups Staging Table"
-          TopLeft="251.999996244907,104.999998435378" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract StockItems Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="246.4,41.6"
-          Id="Package\Extract StockItems Data to Staging.EventHandlers[OnPreExecute]\Truncate StockItems Staging Table"
-          TopLeft="60,60" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract Colors Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="219.2,41.6"
-          Id="Package\Extract Colors Data to Staging.EventHandlers[OnPreExecute]\Truncate Colors Staging Table"
-          TopLeft="280.999995812774,150.999997749925" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract Suppliers Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="232.8,41.6"
-          Id="Package\Extract Suppliers Data to Staging.EventHandlers[OnPreExecute]\Truncate Suppliers Staging Table"
-          TopLeft="179.999997317791,70.9999989420176" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract PackageTypes Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="252,41.6"
-          Id="Package\Extract PackageTypes Data to Staging.EventHandlers[OnPreExecute]\Truncate Package Type Staging table"
-          TopLeft="396.999994084239,227.999996602535" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract Invoices Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="224,41.6"
-          Id="Package\Extract Invoices Data to Staging.EventHandlers[OnPreExecute]\Truncate Invoices Staging table"
-          TopLeft="302.999995484948,149.999997764826" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
-  <DtsEventHandler
-    design-time-name="Package\Extract InvoiceLines Data to Staging.EventHandlers[OnPreExecute]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="241.6,41.6"
-          Id="Package\Extract InvoiceLines Data to Staging.EventHandlers[OnPreExecute]\Truncate InvoiceLines staging table"
-          TopLeft="326.99999512732,74.9999988824129" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>

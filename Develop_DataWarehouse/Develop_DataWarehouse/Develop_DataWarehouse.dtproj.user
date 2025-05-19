@@ -8,6 +8,8 @@
         <UseWinAuth>false</UseWinAuth>
         <WinAuthUserName />
         <WinAuthDomain />
+        <ServerName>Pasi\SANU2002</ServerName>
+        <PathOnServer>/SSISDB/Deploy_DataWarehouse/Develop_DataWarehouse</PathOnServer>
         <UserIDs />
         <UserPasswords />
         <OfflineMode>false</OfflineMode>

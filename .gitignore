@@ -1,5 +1,19 @@
+<<<<<<< HEAD
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
 /CubeProject_IT22205056_/.vs/CubeProject_IT22205056_/FileContentIndex
+=======
+# Ignore all Visual Studio .vs folder files
+.vs/
+*.vsidx
+*.suo
+*.user
+*.wsuo
+*.sqlite
+
+# Ignore compiled binary and intermediate output
+bin/
+obj/
+>>>>>>> 93261aa77923a99f6c83b2ba351d0cccf2149725
