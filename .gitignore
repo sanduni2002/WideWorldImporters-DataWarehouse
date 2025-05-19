@@ -1,0 +1,11 @@
+# Ignore all Visual Studio .vs folder files
+.vs/
+*.vsidx
+*.suo
+*.user
+*.wsuo
+*.sqlite
+
+# Ignore compiled binary and intermediate output
+bin/
+obj/
